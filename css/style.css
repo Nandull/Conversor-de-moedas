@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(0, 0, 0, 0.622), rgba(6, 5, 5, 0.951)), url(../img/fundo2.jpg) center/cover;
+    overflow: hidden;
+}
+
+.container{
+  background: linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.05)
+  );
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5), -1px -1px 2px #aaa, 1px 1px 2px #555;
+  backdrop-filter: blur(0.8rem);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  animation: 1s cubic-bezier(0.16, 1, 0.3, 1) cardEnter;
+}
+
+.subtitle{
+  margin-top: 0.8rem;
+}
+
+.select, .valor{
+  background:none;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.botao{
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  background: none;
+  padding: 5px 10px;
+}
+.botao:hover{
+    box-shadow: 0 0 15px white, inset 0 0 15px white;
+    text-shadow:  0 0 15px white;
+
+}
+
+.select, .valor, .botao:focus{
+  outline: none;
+}
+
+h1{
+align-items: center;
+align-items: center;
+display: flex;
+justify-content: center;
+
+}
